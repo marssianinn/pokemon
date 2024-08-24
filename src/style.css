@@ -1,0 +1,21 @@
+.card{
+    font-size: 25px;
+
+    flex-wrap: wrap;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.card__block{
+    display: flex;
+    column-gap: 20px;
+    border-radius: 5px;
+    background: #1fe5e5;
+    padding: 20px;
+    box-shadow: 0 2px 2px 0;
+}
+.pokemon{
+    width: 30px;
+    height: 30px;
+    background: url("https://www.svgrepo.com/show/276264/pokeball-pokemon.svg") center/cover no-repeat;
+}
