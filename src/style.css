@@ -1,18 +1,20 @@
 .card{
-    font-size: 25px;
 
     flex-wrap: wrap;
     display: flex;
-    column-gap: 20px;
-    row-gap: 20px;
+    column-gap:50px;
+    row-gap: 25px;
+    width: 550px;
 }
 .card__block{
     display: flex;
-    column-gap: 20px;
+    justify-content: space-between;
     border-radius: 5px;
-    background: #1fe5e5;
+    align-items: center;
+    background: #8aced7;
+    width: 200px;
     padding: 20px;
-    box-shadow: 0 2px 2px 0;
+    box-shadow: 1px 2px 5px 0;
 }
 .pokemon{
     width: 30px;
